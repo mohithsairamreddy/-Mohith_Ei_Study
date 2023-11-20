@@ -60,6 +60,9 @@ Data Collected: 10
 - **SOLID Principles**:
   - Single responsibility principle: Each class has a single purpose
   - Open/closed principle: Easy to add new commands without modifying existing code
+  - L - Liskov substitution principle: Subclasses can substitute base class
+  - I - Interface segregation principle
+  - D - Dependency inversion principle: Depend on abstractions, not concretions
   
 ## Logging 
 
