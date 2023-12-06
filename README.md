@@ -53,6 +53,8 @@ Data Collected: 10
 - `DeactivatePanelsCommand`: Concrete command to deactivate panels
 - `CollectDataCommand`: Concrete command to collect data
 - `CommandInvoker`: Executes commands on satellite
+## Class Diagram
+![Class Diagram](class_diagram.png)
 
 ## Design Patterns
 
@@ -75,3 +77,6 @@ Data Collected: 10
 - Additional catch blocks handle transient errors
 
 This implements a robust satellite command system using best practices like design patterns, SOLID principles, logging, and error handling. The system is maintainable, extensible, and simulates real-world scenarios.
+
+## Sequence Diagram
+![Sequence Diagram](sequence_diagram.png)
